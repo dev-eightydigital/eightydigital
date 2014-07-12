@@ -1,0 +1,55 @@
+#section--7 .section--info{
+	margin-bottom: 40px; }
+
+#LeaveMe{
+	display: none; }
+
+#form--contact{
+	margin: 0;
+	padding: 0; }
+#form--contact ul{
+	margin: 0;
+	padding: 0; }
+#form--contact ul li{
+	clear: both;
+	list-style: none;
+	margin: 5px 0; }
+#form--contact label{
+	width: 120px;
+	float: left;
+	font-size: .8em;
+	text-transform: uppercase; }
+
+#form--contact input, #form--contact textarea{
+	width: 350px;
+	border-radius: 0;
+	background: none;
+	border: 1px solid #8c8c8c;
+	padding: 8px;
+	color: #fff; }
+@media screen and ( max-width: 1000px ){
+	#form--contact input, #form--contact textarea{
+		width: 80%; }
+	.span6{
+		margin-bottom: 30px; }
+	}
+@media screen and ( max-width: 767px ){
+	#form--contact input, #form--contact textarea{
+		width: 95%; }
+	}
+#form--contact textarea{
+	height: 130px; }
+@media screen and ( max-width: 1220px ){
+	.buttonLbl{
+		display: none; }
+	}
+.btn-submit{
+	border: 0;
+	background: #636363;
+	padding: 10px 30px;
+	color: #e2e2e2;
+	text-transform: uppercase; }
+	
+#form--contact .error{
+	background: #fcc;
+	color: #444; }

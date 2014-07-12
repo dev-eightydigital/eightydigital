@@ -1,0 +1,92 @@
+$FFamily: 'Raleway-Regular';
+$FFLight: 'Raleway-Light';
+$FFXLight: 'Raleway-ExtraLight';
+$FFMedium: 'Raleway-Medium';
+$FFBold: 'Raleway-Bold';
+$color0: #282828;
+$color1: #8a8a8b;
+$color2: #FFFFFF;
+$mobileNavBg: rgba(68, 68, 68, 1);
+
+$pgWidth: 1280px;
+$pgWidth_2: auto;
+
+.section{
+	margin-top: 10px;
+	 }
+.section--box{
+	padding: 30px; }
+	
+body.single{
+	
+	article{
+		color: $color2;
+		
+		.entry-title{
+			margin: 0;
+			padding: 0;
+			font-size: 2em;
+			line-height: 1em;
+			font-family: $FFamily;
+			margin-bottom: 10px;
+			@media screen and (max-width: 767px){
+				font-size: 1.5em; }
+			 }//*entry-title*/
+			.meta{
+				font-size: .8em;
+				margin-bottom: 20px;
+			
+				a{
+					color: $color2;
+					text-decoration: none;
+					border-bottom: 1px dotted $color2; }
+				a:hover{
+					color: $color1; }
+			}//*meta*/
+		
+		.entry-meta001{
+			font-size: .8em;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid $color1; }
+	
+		.entry-content, .entry-summary{
+			font-size: .85em;
+			line-height: 23px;
+			margin-bottom: 30px;
+			img{
+				box-shadow: 0 0 1px 0 $color1; }
+			 }//**.entry-content, .entry-summary*/
+		.edit-link{
+			display: block;
+			font-size: .8em;
+			text-transform: uppercase;
+			margin-bottom: 30px; }
+	}//**article*/
+	
+	#comments{
+		padding: 0;
+		margin: 0 0 30px;
+		font-family: $FFLight; }
+
+	.commentlist{
+		margin: 0;
+		padding: 0; 
+		
+		li{
+			list-style: none;
+			margin-bottom: 10px;
+			font-size: .8em; 
+			background: $color0;
+			padding: 10px;
+			
+			.comment-author{
+				img{
+					margin: 0 20px 10px 0; }
+				}
+			.comment-meta, p, .reply{
+				line-height: 20px; }
+			}
+		}
+}//*\body.single**/

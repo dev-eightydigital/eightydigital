@@ -1,0 +1,61 @@
+.section {
+  margin-top: 10px; }
+
+.section--box {
+  padding: 30px; }
+
+body.single article {
+  color: white; }
+  body.single article .entry-title {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: "Raleway-Regular";
+    margin-bottom: 10px; }
+    @media screen and (max-width: 767px) {
+      body.single article .entry-title {
+        font-size: 1.5em; } }
+  body.single article .meta {
+    font-size: .8em;
+    margin-bottom: 20px; }
+    body.single article .meta a {
+      color: white;
+      text-decoration: none;
+      border-bottom: 1px dotted white; }
+    body.single article .meta a:hover {
+      color: #8a8a8b; }
+  body.single article .entry-meta001 {
+    font-size: .8em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #8a8a8b; }
+  body.single article .entry-content, body.single article .entry-summary {
+    font-size: .85em;
+    line-height: 23px;
+    margin-bottom: 30px; }
+    body.single article .entry-content img, body.single article .entry-summary img {
+      box-shadow: 0 0 1px 0 #8a8a8b; }
+  body.single article .edit-link {
+    display: block;
+    font-size: .8em;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+body.single #comments {
+  padding: 0;
+  margin: 0 0 30px;
+  font-family: "Raleway-Light"; }
+body.single .commentlist {
+  margin: 0;
+  padding: 0; }
+  body.single .commentlist li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: .8em;
+    background: #282828;
+    padding: 10px; }
+    body.single .commentlist li .comment-author img {
+      margin: 0 20px 10px 0; }
+    body.single .commentlist li .comment-meta, body.single .commentlist li p, body.single .commentlist li .reply {
+      line-height: 20px; }
